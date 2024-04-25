@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offer_packages",
+  "info": {
+    "singularName": "offer-package",
+    "pluralName": "offer-packages",
+    "displayName": "Offer Package"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offer_title": {
+      "type": "string",
+      "required": true
+    },
+    "offer_details": {
+      "type": "text",
+      "required": true
+    },
+    "offer_price": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
